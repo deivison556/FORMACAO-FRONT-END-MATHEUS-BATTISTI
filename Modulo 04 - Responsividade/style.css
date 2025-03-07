@@ -1,0 +1,32 @@
+/* Utilizando media query com max-width */
+h1 {
+  color: red;
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+
+/* Utilizando min-width */
+@media screen and (max-width: 800px) {
+  p {
+    color: black;
+    text-transform: uppercase;
+    background-color: lightgray;
+  }
+}
+
+/* Utilizando landscape */ 
+h3 {
+  display: none;
+}
+
+@media screen and (orientation: landscape) {
+  h3 {
+    display: block;
+  }
+}
